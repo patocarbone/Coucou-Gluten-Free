@@ -71,10 +71,33 @@ body {
 
 /* Logo */
 .containerLogo {
-    width: 100%;
-    margin-left: 25%;
+    margin-left: 32%;
+    margin-top: 1%;
 }
 .logo {
     width: 50%;
     height: 50%;
+}
+
+/*Navbar*/
+.navbarList {
+    text-align: center;
+}
+.navbarList li{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 18px;
+   
+}
+
+.navbarList li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.navbarList li a:hover {
+    border-top: 1px solid #B7441E;
+    border-bottom: 1px solid #B7441E;
 }
