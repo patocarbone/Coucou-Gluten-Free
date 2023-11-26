@@ -65,13 +65,11 @@ body {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    letter-spacing: 1px;
-    word-spacing: 1px;
 }
 
 /* Logo */
 .containerLogo {
-    margin-left: 36%;
+    margin-left: 38%;
     margin-top: 1%;
 }
 .logo {
@@ -149,4 +147,13 @@ body {
 
 .sliderNav a:hover {
     opacity: 1;
+}
+
+/* Introduccion */
+
+.intro {
+    text-align: center;
+    color: #b62b18;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 22px;
 }
