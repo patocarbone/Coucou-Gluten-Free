@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 1px solid red; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -59,10 +59,10 @@ body {
     background-color: #b62b18;
 }
 .lema p {
-    padding: 5px;
+    padding: 7px;
     text-align: center;
     color: #f4eddd;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -84,7 +84,7 @@ body {
 .navbarList li{
     display: inline;
     font-family: 'Montserrat', sans-serif;
-    margin-right: 18px;
+    margin-right: 20px;
    
 }
 
@@ -107,7 +107,7 @@ body {
 
 .sliderWrapper {
     position: relative;
-    max-width: 60rem;
+    max-width: 70rem;
     margin: 0 auto;
 }
 
@@ -141,7 +141,7 @@ body {
     height: 0.75rem;
     border-radius: 50%;
     background-color: #000;
-    opacity: 0.50;
+    opacity: 0.75;
     transition: opacity ease 250ms;
 }
 
@@ -164,4 +164,6 @@ body {
     font-size: 18px;
     font-weight: 500;
     margin-top: 50px;
+    width: 40%;
+    margin-left: 30%;
 }
