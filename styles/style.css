@@ -156,4 +156,12 @@ body {
     color: #b62b18;
     font-family: 'Lilita One', sans-serif;
     font-size: 22px;
+    margin-top: 50px;
+}
+.introParrafo {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
 }
