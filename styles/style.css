@@ -155,13 +155,13 @@ body {
     text-align: center;
     color: #b62b18;
     font-family: 'Lilita One', sans-serif;
-    font-size: 22px;
-    margin-top: 50px;
+    font-size: 30px;
+    margin-top: 80px;
 }
 .introParrafo {
     text-align: center;
     font-family: 'Montserrat', sans-serif ;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 50px;
     width: 40%;
@@ -170,6 +170,13 @@ body {
 
 /* Productos destacados */
 
+.titulo{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+    font-family: 'Lilita One', sans-serif;
+    color: #b62b18;
+}
 .contenedorProductos img {
     width: 280px;
     height: 260px;
@@ -238,5 +245,26 @@ body {
 .informacion button:hover {
     background-color: #fff;
     border: 1px solid #B7441E;
+    color: black;
+}
+
+.botonVer {
+  border-radius: 10px;
+  padding: 15px 80px;
+  margin-left: 40%;
+  margin-top: 50px;
+  background-color: #b62b18;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-wrap: nowrap;
+  color: #F4EDDD;
+  width: auto;
+  height: auto;
+}
+
+.botonVer:hover {
+    background-color: #F4EDDD;
     color: black;
 }
